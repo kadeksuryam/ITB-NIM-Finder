@@ -1,5 +1,7 @@
 const mongoose = require('mongoose')
-const uri= process.env.MONGODB_URI
+
+MONGODB_URI = 'mongodb+srv://kadeksuryam:suryadb@cluster0.i3e1p.mongodb.net/daftarmahasiswa?retryWrites=true&w=majority'
+const uri= MONGODB_URI
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true,
     useFindAndModify: false, useCreateIndex: true }).then(result => {
