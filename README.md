@@ -13,3 +13,4 @@
 <h3>TODO</h3>
 <p>The performance is pretty slow because the query requested everytime the input change</p>
 <p>Instead of that, The server can just sent all the data to frontend and do filtering in frontend</p>
+<p>Add more data, currently, only STEI'19 student available in database </p> 
